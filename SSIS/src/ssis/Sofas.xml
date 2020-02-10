@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE sofas [
+
+<!--define the internal DTD-->
+	<!ELEMENT sofas (sofa*)>
+	<!ELEMENT sofa (id,category,name,color,price)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT color (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+
+<!--close the DOCTYPE declaration-->
+]>
+
+<sofas>
+    <sofa>
+        <id>AP1290</id>
+        <category>Fabric Sofa</category>
+        <name>Aviana Pillow Back Four Seat</name>
+        <color>Grey</color>
+        <price>499.00</price>
+    </sofa>
+    <sofa>
+        <id>AL1420</id>
+        <category>Corner Sofa</category>
+        <name>Omnia Left Hand Facing Arm</name>
+        <color>White</color>
+        <price>799.00</price>
+    </sofa>
+    <sofa>
+        <id>TS1040</id>
+        <category>Leather Sofa</category>
+        <name>Tallulah</name>
+        <color>Black</color>
+        <price>599.00</price>
+    </sofa>
+    <sofa>
+        <id>EP1290</id>
+        <category>Fabric Sofa</category>
+        <name>Edmond Pillow Back</name>
+        <color>Grey</color>
+        <price>599.00</price>
+    </sofa>
+    <sofa>
+        <id>BP1760</id>
+        <category>Fabric Sofa</category>
+        <name>Briony Power Plus</name>
+        <color>Brown</color>
+        <price>779.00</price>
+    </sofa>
+</sofas>
