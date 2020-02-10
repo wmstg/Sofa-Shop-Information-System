@@ -4,21 +4,15 @@
  ## The Requirement
 Use Java and NetBeans to create a Sofa Shop Information System. To create the system, you are required to create a project named SSIS containing a class named SSInfo. 
 
-The system stores information about various types of sofa, its GUI should have a table titled “Sofa Details” for storing and displaying the following information: 
--	Sofa ID
--	Category (e.g. Armchair sofa, Loveseat sofa, Sofa beds)
--	SofaName within each category (e.g. for Armchair: Low Back, High Back, Swivel, Wingback, etc.) 
--	Colour (Red, Blue, Yellow)
--	Price
-The above are the minimum requirements for sofa items in the table.
+The system stores information about various types of sofa, its GUI should have a table titled “Sofa Details” for storing and displaying the information: Sofa ID, Category, SofaName, Colour and Price.
 
-The requirements for the input GUI are: 
+The requirements for the input GUI are 
 -	Radio buttons for selecting colours
 -	A Combo box for selecting categories
 -	Text fields for all other inputs 
 -	The table, named Sofa Details, should have at least five categories, with two or three pieces of sofa stored for each category.
 
-For the project GUI, a simple menu bar is required. It should have at least the following tabs:
+A simple menu bar, it should have at least the following tabs:
 -	File – with Open File for opening an existing file and Exit for closing the system
 -	Help – for user help files
 
